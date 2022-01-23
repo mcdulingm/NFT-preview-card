@@ -131,14 +131,15 @@ main {
 
 .card__title a h1 {
   font-weight: 600;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .card__title p {
   font-weight: 300;
-  font-size: 18px;
-  padding-top: 20px;
+  font-size: 16px;
+  padding-top: 15px;
   color: #8bacda;
+  line-height: 25px;
 }
 
 .card__details {
@@ -208,11 +209,11 @@ main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-top: 15px;
+  padding-top: 16px;
 }
 
 .card__profile img {
-  max-width: 33px;
+  width: 33px;
   border: 1px solid white;
   border-radius: 100%;
 }

@@ -138,14 +138,15 @@ main {
             }
             h1 {
                 font-weight: 600;
-                font-size: 22px;
+                font-size: 20px;
             }
         }
         p {
             font-weight: 300;
-            font-size: $paragraph;
-            padding-top: 20px;
+            font-size: 16px;
+            padding-top: 15px;
             color: $softblue;
+            line-height: 25px;
         }
     }
 
@@ -195,9 +196,9 @@ main {
         -ms-flex-direction: row;
         flex-direction: row;
         align-items: center;
-        padding-top: 15px;
+        padding-top: 16px;
         img {
-            max-width: 33px;
+            width: 33px;
             border: 1px solid $white;
             border-radius: 100%;
         }
